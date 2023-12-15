@@ -1,0 +1,59 @@
+
+html{
+    font-size: 10px;
+}
+body{
+    text-align: center;
+    overflow-x:hidden ;
+    background-color: lightblue;
+    font-family: Montserrat;
+}
+
+
+.typo{
+    -webkit-text-stroke: 1px black;
+    /* padding: 2px; */
+    /* font-size: 6rem ; */
+    color: white;
+    filter: drop-shadow(2px 5px  black);
+}
+
+input:focus{
+    outline: black;
+}
+::-webkit-scrollbar{
+    background-color: #fff;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 55, 55);
+    background: linear-gradient(180deg, rgba(255,75,75,1) 0%, rgba(255,255,255,1) 54%, rgba(128,128,128,1) 100%);
+    border-radius: 50px;
+}
+
+
+input{
+filter: drop-shadow(5px 5px  black);
+    text-indent: 10px;
+}
+
+input:focus{
+outline: 2px solid;
+}
+.names{
+    box-shadow: 5px 6px  black;
+    transition: all 0.2s ease-in-out ;
+}
+.names:hover{
+    background: radial-gradient(circle, rgb(255, 255, 255) 30%, rgb(255, 123, 123) 100%);
+    box-shadow: 10px 10px  black;
+
+    transform: scale(1.1);
+}
+.poke{
+    transition: all 0.2s linear;
+}
+.poke:hover{
+transform: scale(1.2);
+filter:  drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.718));
+}
