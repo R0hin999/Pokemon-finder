@@ -7,10 +7,8 @@ import { motion } from "framer-motion";
 interface Stat {
   stat: {
     name: string;
-    // other properties if needed
   };
   base_stat: string;
-  // name: string;
 }
 
 export default function Show() {
