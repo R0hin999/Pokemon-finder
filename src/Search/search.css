@@ -22,12 +22,12 @@ input:focus{
     outline: black;
 }
 ::-webkit-scrollbar{
-    background-color: #fff;
+    /* background-color: #fff; */
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(255, 55, 55);
-    background: linear-gradient(180deg, rgba(255,75,75,1) 0%, rgba(255,255,255,1) 54%, rgba(128,128,128,1) 100%);
+    /* background-color: rgb(255, 55, 55); */
+
     border-radius: 50px;
 }
 

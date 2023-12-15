@@ -5,9 +5,12 @@ import axios from "axios";
 import { motion } from "framer-motion";
 
 interface Stat {
-  name: string;
-  stat: string;
+  stat: {
+    name: string;
+    // other properties if needed
+  };
   base_stat: string;
+  // name: string;
 }
 
 export default function Show() {
